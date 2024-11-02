@@ -1,6 +1,5 @@
 export default function ProfileCard (props) {
-    return (
-        
+    return (  
         <div>
             <div className="usercard-container">
                 <div className="upper-div">
