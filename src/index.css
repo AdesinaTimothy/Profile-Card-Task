@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: -0.85px;
+}
+
+body {
+  font-family: inter;
+  background-color: #112501;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.usercard-container {
+  background-color: white;
+  padding: 2rem;
+  max-width: 320px;
+  height: auto;
+  box-shadow: 6px 6px 0 0 #ffc300, 6px 6px 0 1px #ffc300;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.usercard-container:hover {
+  background-color: black;
+  color: white;
+}
+
+.upper-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.image-div {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #64993a;
+  overflow: hidden;
+}
+
+.image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lower-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.location-div p {
+  font-size: 16px;
+  /* color: #cc00a7; */
+  font-weight: 500;
+}
+
+.jobtitle-div p {
+  font-size: 18px;
+  color: #64993a;
+  font-weight: 500;
+}
+
+.hobbies-div p {
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+
+.bio-div p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.email-div {
+  width: 80%;
+  background-color: #64993a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  color: white;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+}
